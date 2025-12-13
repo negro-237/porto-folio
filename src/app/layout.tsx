@@ -3,8 +3,8 @@ import "./globals.css";
 import ThemeToggle from "./ThemeToggle";
 
 export const metadata = {
-  title: "Portfolio | Coming Soon",
-  description: "A modern portfolio built with Next.js and Tailwind",
+  title: "Negro Services | Negro",
+  description: "Site web de présentation de services, développement web et mobile",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

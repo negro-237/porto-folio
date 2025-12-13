@@ -5,6 +5,36 @@ import ThemeToggle from "./ThemeToggle";
 export const metadata = {
   title: "Negro Services | Negro",
   description: "Site web de présentation de services, développement web et mobile",
+   keywords: [
+    "développeur web",
+    "Next.js",
+    "React",
+    "Tailwind",
+    "portfolio développeur",
+  ],
+  authors: [{ name: "Petito Tapondjou" }],
+  creator: "Petito Tapondjou",
+  metadataBase: new URL("https://negro-services.com"),
+  openGraph: {
+    title: "Petito Tapondjou | Développeur Web",
+    description: "Site web de présentation de services, développement web et mobile",
+    url: "https://negro-services.com.com",
+    siteName: "Portfolio Petito Tapondjou",
+    images: [
+      {
+        url: "/next.svg",
+        width: 1200,
+        height: 630,
+        alt: "Portfolio Petito Tapondjou",
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+    robots: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

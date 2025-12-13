@@ -7,6 +7,10 @@ export const metadata = {
   description: "Site web de présentation de services, développement web et mobile",
    keywords: [
     "développeur web",
+    "développeur mobile",
+    "aws",
+    "azure",
+    "devops",
     "Next.js",
     "React",
     "Tailwind",

@@ -67,7 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           {/* Floating WhatsApp */}
           <a
-            href="https://wa.me/237600000000"
+            href="https://wa.me/23778660800"
             target="_blank"
             className="fixed bottom-6 right-6 z-50 text-white hover:scale-110 transition"
           >
